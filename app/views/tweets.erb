@@ -1,0 +1,7 @@
+<h1>Tweets Index</h1>
+
+<ul>
+<% @tweets.each_with_index do |tweet, i| %> 
+  <li><%= i + 1 %>. <a href="/tweets/<%= tweet.id %>"><%= tweet.message %></a></li>
+<% end %> 
+</ul>

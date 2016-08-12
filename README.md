@@ -8,4 +8,3 @@
 4. Understand how to render a view page from a route you defined in a controller.
 
 
-alsdkfjal;d
